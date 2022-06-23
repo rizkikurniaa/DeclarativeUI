@@ -13,6 +13,8 @@
 		F1F4CF7C2864A05F00A48091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F4CF7B2864A05F00A48091 /* Assets.xcassets */; };
 		F1F4CF7F2864A05F00A48091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F4CF7D2864A05F00A48091 /* LaunchScreen.storyboard */; };
 		F1F4CF872864A2BD00A48091 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4CF862864A2BD00A48091 /* DetailViewController.swift */; };
+		F1F4CF892864A69000A48091 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4CF882864A69000A48091 /* MyTabBarController.swift */; };
+		F1F4CF8B2864A6A700A48091 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4CF8A2864A6A700A48091 /* AnotherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F1F4CF7E2864A05F00A48091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1F4CF802864A05F00A48091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F4CF862864A2BD00A48091 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F1F4CF882864A69000A48091 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		F1F4CF8A2864A6A700A48091 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F1F4CF7D2864A05F00A48091 /* LaunchScreen.storyboard */,
 				F1F4CF802864A05F00A48091 /* Info.plist */,
 				F1F4CF862864A2BD00A48091 /* DetailViewController.swift */,
+				F1F4CF882864A69000A48091 /* MyTabBarController.swift */,
+				F1F4CF8A2864A6A700A48091 /* AnotherViewController.swift */,
 			);
 			path = DeclarativeUI;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			files = (
 				F1F4CF772864A05D00A48091 /* ViewController.swift in Sources */,
 				F1F4CF872864A2BD00A48091 /* DetailViewController.swift in Sources */,
+				F1F4CF8B2864A6A700A48091 /* AnotherViewController.swift in Sources */,
 				F1F4CF732864A05D00A48091 /* AppDelegate.swift in Sources */,
 				F1F4CF752864A05D00A48091 /* SceneDelegate.swift in Sources */,
+				F1F4CF892864A69000A48091 /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
